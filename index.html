@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="[Gabriel campos Santana]">
+    <title>Afasia Aid</title>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</head>
+<style>
+
+    body {
+        margin: auto;
+    }
+
+
+.imagens {
+    text-align: center;
+    
+}
+
+.sintese {
+    border-radius: 50%;
+    border: solid black;
+}
+
+
+.emoji {
+    border-radius: 50%;
+    border: solid black;
+}
+
+
+.nav {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 185%;
+    transition: background-color 0.3s ease;
+    padding-left: 40px;
+}
+
+
+.link:hover {
+    background-color: gray;
+
+}
+
+
+.simb, link {
+    display: inline-block;
+  vertical-align: middle; /* Alinha verticalmente no meio */
+}
+
+.simb {
+    border-radius: 50%;
+    border: solid black;
+}
+
+.imagem2 {
+    
+    
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+@media (max-width: 500px){
+.link{
+    font-size: 125%;
+}
+
+.simb {
+    width: 70;
+    height: 70;
+}
+}
+
+</style>
+
+
+
+<body>
+
+
+    <nav class="nav"> 
+        
+        <img src="https://media.istockphoto.com/id/1483611922/pt/vetorial/aphasia-functioning-mechanism-connection-brain-with-speech.jpg?s=612x612&w=0&k=20&c=MiB_D0s9RnQ7z3xzgNYrSQ0y_HXOOCup9EBbMapA6lE=" alt="simbolo do site" width="75" height="75" title="simbolo do site" class="simb">
+        <a class="link"href="tutorialindex.html">Tutorial do site</a>
+        <a class="link"href="oqueafasiaindex.html">O que é Afasia ?</a>
+         
+       </nav>
+
+
+<br>
+
+
+<div class="imagens">
+    <a href="sintesedevozindex.html">
+<img src="https://static.vecteezy.com/ti/vetor-gratis/p1/9796083-voice-command-icon-flat-flat-voice-control-icon-for-your-web-site-design-logo-app-ui-voice-command-control-with-sound-waves-symbol-voiceover-sign-conceito-de-reconhecimento-de-voz-vetor.jpg" alt="sintese" width="125" height="125" title="sintese de voz" class="sintese">
+</a>
+
+<br>
+<br>
+
+<a href="emojisindex.html">
+<img src="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f600.svg" alt="seção emoji" width="125" height="125" title="seção emojis" class="emoji">
+</a>
+</div>
+
+
+
+<div class="imagem2">
+    <a href="reconhecimentodevozindex.html">
+        <img src="https://img.freepik.com/vetores-premium/conceito-de-onda-sonora-de-reconhecimento-de-voz-com-imitacao-de-som-de-voz-e-icone-de-microfone_686498-291.jpg?w=740" alt="reconhecimento de voz" width="140" height="140">
+    </a>
+</div>
+
+
+<div vw class="enabled"> <!--codigo do v-libras para surdos-->
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper></div>
+</div>
+
+
+</body>
+
+<script>
+        
+
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+       
+
+        
+
+    </script>
+
+</html>
