@@ -31,38 +31,32 @@
 }
 
 
-.nav {
+.i {
+        border-radius: 50%;
+        border: solid black;
+       }
+
+       .navbar {
     background-color: blue;
     display: flex;
     justify-content: space-around;
+    
 }
 
-.link {
+.nav-link {
     color: white;
     text-decoration: none;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 185%;
     transition: background-color 0.3s ease;
-    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
 }
 
+.nav-link:hover {
+    background-color: red;
 
-.link:hover {
-    background-color: gray;
+}    
 
-}
-
-
-.simb, link {
-    display: inline-block;
-  vertical-align: middle; /* Alinha verticalmente no meio */
-}
-
-.simb {
-    border-radius: 50%;
-    border: solid black;
-}
 
 .imagem2 {
     
@@ -81,6 +75,10 @@
     width: 70;
     height: 70;
 }
+
+.nav-link {
+        font-size: 125%;
+    }
 }
 
 </style>
@@ -90,35 +88,36 @@
 <body>
 
 
-    <nav class="nav"> 
-        
-        <img src="https://media.istockphoto.com/id/1483611922/pt/vetorial/aphasia-functioning-mechanism-connection-brain-with-speech.jpg?s=612x612&w=0&k=20&c=MiB_D0s9RnQ7z3xzgNYrSQ0y_HXOOCup9EBbMapA6lE=" alt="simbolo do site" width="75" height="75" title="simbolo do site" class="simb">
-        <a class="link"href="https://gabrielcamposdev-code.github.io/gabrielprojeto6.github.io/">Tutorial do site</a>
-        <a class="link"href="https://gabrielcamposdev-code.github.io/gabrielprojeto3.github.io/">O que é Afasia ?</a>
-         
-       </nav>
+    <nav class="navbar">
+        <a href="#">
+        <img src="https://media.istockphoto.com/id/1483611922/pt/vetorial/aphasia-functioning-mechanism-connection-brain-with-speech.jpg?s=612x612&w=0&k=20&c=MiB_D0s9RnQ7z3xzgNYrSQ0y_HXOOCup9EBbMapA6lE=" alt="i" width="75" height="75" class="i">
+        </a>
+        <a class="nav-link" href="#">Tutorial do site</a>
+        <a class="nav-link" href="#">Oque é afasia?</a>
+        <a class= "nav-link" href="#">Sobre nos</a>
+    </nav>  
 
 
 <br>
 
 
 <div class="imagens">
-    <a href="https://gabrielcamposdev-code.github.io/gabrielprojeto5.github.io/">
+    <a href="sintesedevozindex.html">
 <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/9796083-voice-command-icon-flat-flat-voice-control-icon-for-your-web-site-design-logo-app-ui-voice-command-control-with-sound-waves-symbol-voiceover-sign-conceito-de-reconhecimento-de-voz-vetor.jpg" alt="sintese" width="125" height="125" title="sintese de voz" class="sintese">
 </a>
 
 <br>
 <br>
 
-<a href="https://gabrielcamposdev-code.github.io/gabrielprojeto2.github.io/">
+<a href="emojisindex.html">
 <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f600.svg" alt="seção emoji" width="125" height="125" title="seção emojis" class="emoji">
 </a>
 </div>
 
-<br>
+
 
 <div class="imagem2">
-    <a href="https://gabrielcamposdev-code.github.io/gabrielprojeto4.github.io/">
+    <a href="reconhecimentodevozindex.html">
         <img src="https://img.freepik.com/vetores-premium/conceito-de-onda-sonora-de-reconhecimento-de-voz-com-imitacao-de-som-de-voz-e-icone-de-microfone_686498-291.jpg?w=740" alt="reconhecimento de voz" width="140" height="140">
     </a>
 </div>
